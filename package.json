@@ -1,0 +1,24 @@
+{
+  "name": "web_app",
+  "version": "1.0.0",
+  "description": "blanko",
+  "main": "/back_end/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmundcong/so_you_finally_decided_to_make_that_web_app_edmund.git"
+  },
+  "author": "Edmund Cong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmundcong/so_you_finally_decided_to_make_that_web_app_edmund/issues"
+  },
+  "homepage": "https://github.com/edmundcong/so_you_finally_decided_to_make_that_web_app_edmund#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13",
+    "body-parser": "^1.18.2"
+  }
+}
