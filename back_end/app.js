@@ -6,9 +6,8 @@ const bodyParser = require("body-parser");
 
 let index = require("./routes/index");
 
-// don't need this YET
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 let port = process.env.PORT || 8080;
 
